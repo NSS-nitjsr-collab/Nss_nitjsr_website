@@ -1,0 +1,49 @@
+.nss-homepage-first-half {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .left-half {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .right-half {
+    display: grid;
+    align-items: center;
+    flex: 1 1;
+    text-align: center;
+    align-content: space-around;
+    justify-items: center;
+  }
+  
+  h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .nss-homepage-first-half p {
+    font-size: 36px;
+    line-height: 1.5;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media screen and (max-width: 620px) {
+    .nss-homepage-first-half {
+      flex-direction: column;
+    }
+  
+    .right-half {
+      margin-top: 20px;
+    }
+  }
+  
+ 

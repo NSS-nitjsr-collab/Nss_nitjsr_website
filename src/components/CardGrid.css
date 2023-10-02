@@ -1,0 +1,18 @@
+.card-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 auto; /* Center the grid horizontally */
+    max-width: 1200px; /* Set a max width to prevent excessive stretching */
+    margin-bottom: 50px;
+  
+    /* Media query for smaller screens (e.g., up to 768px) */
+    @media (max-width: 600px) {
+      grid-template-columns: repeat(2, 1fr); /* Show 2 cards in a row */
+    }
+  
+    /* Media query for larger screens */
+    @media (min-width: 601px) {
+      grid-template-columns: repeat(3, 1fr); /* Show 3 cards in a row */
+    }
+  }
