@@ -1,0 +1,11 @@
+.indented {
+    padding-left: 50pt;
+    padding-right: 50pt;
+    text-align:left;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: block;
+    text-align: justify;
+  }
