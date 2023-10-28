@@ -67,6 +67,16 @@ export default function Header() {
         color="blue-gray"
         className="p-1 font-normal"
       >
+      <NavLink to="/yearbook" className="nav-link ">
+          YearBook
+        </NavLink>
+      </Typography>
+      <Typography
+        as="li"
+        variant="medium"
+        color="blue-gray"
+        className="p-1 font-normal"
+      >
         <NavLink to="/contact" className="nav-link ">
           Contact
         </NavLink>

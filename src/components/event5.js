@@ -6,9 +6,9 @@ export default function Event5() {
       <h1 className="heading">Event 5</h1>
 
       <div className="content">
-        <div className="image">
+        <figure>
           <img className="image1" src="image2.jpeg" alt="123" />
-        </div>
+        </figure>
         <div>
           <h4>
             It is a long established fact that a reader will be distracted by
