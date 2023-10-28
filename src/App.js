@@ -6,6 +6,7 @@ import Contact from './pages/Contact';
 import Event from './pages/Event';
 import Team from './pages/Team';
 import About from './pages/About';
+import Error from './pages/Error';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/team" element={<Team />} /> 
         <Route path="/contact" element={<Contact />} />
         <Route path="/event" element={<Event />} />
+        <Route path="*" element={<Error />} />
       </Routes>
     </div>
     

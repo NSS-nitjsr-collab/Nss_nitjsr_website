@@ -2,7 +2,11 @@ import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
+
 function Contact() {
+
+  
+  
   return (
     <>
     <Header />
@@ -32,21 +36,46 @@ function Contact() {
         <div class="right-side">
         <div class="topic-text">Send us a message</div>
         <p>Fill up the form our team get back to you within a week.</p>
-      <form action="#">
+
+      <form action="https://formspree.io/f/xwkdyzrj" method='POST'>
         <div class="input-box">
-          <input type="text" placeholder="Enter your name"></input>
+          <input 
+          type="text" 
+          name="username"
+          placeholder="Name"
+          required
+          
+           />
         </div>
         <div class="input-box">
-          <input type="text" placeholder="Enter your email"></input>
+          <input 
+          type="email"
+          name="Email" 
+          placeholder="Email" 
+          required 
+          
+          />
         </div>
         <div class="input-box">
-          <input type="text" placeholder="Enter your mobile no:"></input>
+          <input 
+          type="tel" 
+          name="Phone" 
+          placeholder="Phone" 
+          required 
+          
+          />
         </div>
         <div class="input-box message-box">
-          <textarea></textarea>
+          <textarea 
+          type="text"
+          name="Message"
+          placeholder="Message"
+          required
+          
+          />
         </div>
-        <div class="button">
-          <input type="button" value="Send Now"></input>
+        <div >
+          <button class="button" type="submit" value="Send Now">Send Now</button>
         </div>
       </form>
     </div>
