@@ -1,18 +1,22 @@
 import { Typography } from "@material-tailwind/react";
 import "./Footer.css";
+import { NavLink } from "react-router-dom";
 
 const LINKS = [
   {
     title: "About us",
-    items: ["What we do", "How we do", "text", "text"],
+    items: ["Home", "About", "Events"],
+    urls: ["/", "/about", "/event"],
   },
   {
     title: "Departments",
-    items: ["About us", "text", "text", "text"],
+    items: ["Team", "Verify Certificate", "Contact us"],
+    urls: ["/team", "/verify", "/contact"],
   },
   {
     title: "Resource",
-    items: ["Blog", "Newsletter", "Events", "Help center"],
+    items: ["YearBook", "Blog", "Help center"],
+    urls: ["/yearbook", "/blog", "/contact"],
   },
 ];
 
@@ -23,13 +27,15 @@ export default function Footer() {
     <footer className="relative w-full mt-7 footer">
       <div className="mx-auto w-full max-w-7xl px-8">
         <div className="grid md:grid-cols-3 gap-4">
-          {LINKS.map(({ title, items }) => (
+          {LINKS.map(({ title, items, urls }) => (
             <div key={title}>
               <div className="footer-title">{title}</div>
               <ul>
-                {items.map((link) => (
-                  <li className="footer-content" key={link}>
-                    {link}
+                {items.map((item, url) => (
+                  <li className="footer-content" key={item}>
+                    <NavLink to={urls[url]} className="nav-link ">
+                      {item}
+                    </NavLink>
                   </li>
                 ))}
               </ul>
@@ -39,8 +45,7 @@ export default function Footer() {
 
         <div className="mt-12 flex w-full flex-col items-center justify-center border-t border-blue-gray-50 py-4 md:flex-row md:justify-between">
           <div className="footer-bottom">
-            &copy; {currentYear}{" "}
-            <a href="https://material-tailwind.com/">NSS NIT Jamshedpur</a> |
+            &copy; {currentYear} <NavLink to="/">NSS NIT Jamshedpur</NavLink> |
             All Rights Reserved.
           </div>
           <div className="flex gap-4 text-blue-gray-900 sm:justify-center">
