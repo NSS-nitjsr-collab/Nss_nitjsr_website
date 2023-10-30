@@ -7,7 +7,7 @@ import Footer from '../components/Footer'
 
 import { Box } from '@chakra-ui/react'
 
-import '../components/team.css';
+import '../styles/team.css'
 
 
 const Team = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import './NSSHomepageFirstHalf.css';
+import '../styles/NSSHomepageFirstHalf.css'
 import KnowMoreButton from './KnowMoreButton';
 import { Link } from 'react-router-dom';
 
