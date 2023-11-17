@@ -51,7 +51,7 @@ export default function Footer() {
           <div className="flex gap-4 text-blue-gray-900 sm:justify-center">
             <Typography
               as="a"
-              href="#"
+              href="https://www.facebook.com/nssnitjamshedpur/"
               className="opacity-80 transition-opacity hover:opacity-100"
             >
               <svg
@@ -69,7 +69,7 @@ export default function Footer() {
             </Typography>
             <Typography
               as="a"
-              href="#"
+              href="https://www.instagram.com/nss_nitjsr/"
               className="opacity-80 transition-opacity hover:opacity-100"
             >
               <svg
@@ -87,7 +87,7 @@ export default function Footer() {
             </Typography>
             <Typography
               as="a"
-              href="#"
+              href="https://twitter.com/nss_nitjsr"
               className="opacity-80 transition-opacity hover:opacity-100"
             >
               <svg
