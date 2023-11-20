@@ -2,26 +2,31 @@ import React from "react";
 
 export default function Event4() {
   return (
-    <div className="events Event4">
-      <h1 className="heading">Event 4</h1>
+    <div className="events runForUnity">
+      <h1 className="heading">RUN FOR UNITY</h1>
 
       <div className="content">
         <figure>
-          <img className="image1" src="image2.jpeg" alt="123" />
+          <img className="image1" src="run for unity.png" alt="123" />
         </figure>
         <div>
-          <h4>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed to using 'Content here, content
-            here', making it look like readable English. Many desktop publishing
-            packages and web page editors now use Lorem Ipsum as their default
-            model text, and a search for 'lorem ipsum' will uncover many web
-            sites still in their infancy. Various versions have evolved over the
-            years, sometimes by accident, sometimes on purpose (injected humour
-            and the like).
-          </h4>
+          <p className="eventContent">
+            On <b>October 31, 2022, NSS NIT JAMSHEDPUR</b> organized{" "}
+            <b>"Run For Unity"</b> to commemorate the birth anniversary of
+            India's first Home Minister and{" "}
+            <b>"Iron Man of India," Sardar Vallabhbhai Patel.</b> Hundreds of
+            students, as well as several members of the College's teaching and
+            non-teaching staff, enthusiastically participated. Students
+            enthusiastically participated in this event while carrying the Unity
+            Run banner. <br></br>
+            <br></br>
+            The goal of the 'Run for Unity' was to motivate and inspire young
+            individuals to run for a great leader who was instrumental in
+            uniting India following independence. Such gatherings are held to
+            demonstrate unity and solidarity among people of various religions,
+            as well as to instil feelings of national integration and
+            brotherhood among them.
+          </p>
         </div>
       </div>
     </div>

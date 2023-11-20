@@ -2,26 +2,27 @@ import React from "react";
 
 export default function Event5() {
   return (
-    <div className="events Event5">
-      <h1 className="heading">Event 5</h1>
+    <div className="events worldBicycleDay">
+      <h1 className="heading">WORLD BICYCLE DAY</h1>
 
       <div className="content">
         <figure>
-          <img className="image1" src="image2.jpeg" alt="123" />
+          <img className="image1" src="world bicycle day.png" alt="123" />
         </figure>
         <div>
-          <h4>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed to using 'Content here, content
-            here', making it look like readable English. Many desktop publishing
-            packages and web page editors now use Lorem Ipsum as their default
-            model text, and a search for 'lorem ipsum' will uncover many web
-            sites still in their infancy. Various versions have evolved over the
-            years, sometimes by accident, sometimes on purpose (injected humour
-            and the like).
-          </h4>
+          <p className="eventContent">
+            On the occasion of world bicycle day, the volunteers of NSS NIT
+            Jamshedpur took it upon themselves to raise the awareness of
+            bicycling. The volunteers took the bicycles and appreciated the
+            benefits of the bicycle. Keeping in mind the perks, we hope you
+            choose to use a cycle to cover a short distance. <br></br> <br></br>
+            Every year June 3rd is recognized as World Bicycle Day. This day is
+            to appreciate the flexibility and uniqueness of a bicycle. It will
+            also help with one's health, improving your balance and posture,
+            cardiovascular endurance, flexibility, strength, and overall mood.
+            Let us take a step forward to a healthy and environmental- friendly
+            future.
+          </p>
         </div>
       </div>
     </div>

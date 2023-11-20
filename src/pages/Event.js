@@ -54,7 +54,7 @@ function Event() {
               setColor(1);
             }}
           >
-            Janmotseva
+            Blood Donation
           </button>
           <button
             type="button"
@@ -66,7 +66,7 @@ function Event() {
               setColor(2);
             }}
           >
-            Blood Donation Camp
+            Cloth Donation Drive
           </button>
           <button
             type="button"
@@ -77,7 +77,7 @@ function Event() {
               setColor(3);
             }}
           >
-            Event 3
+            Cleanliness Drive
           </button>
           <button
             type="button"
@@ -88,7 +88,7 @@ function Event() {
               setColor(4);
             }}
           >
-            Event 4
+            Run For Unity
           </button>
           <button
             type="button"
@@ -99,7 +99,7 @@ function Event() {
               setColor(5);
             }}
           >
-            Event 5
+            World Bicycle Day
           </button>
           <button
             type="button"
@@ -110,7 +110,7 @@ function Event() {
               setColor(6);
             }}
           >
-            Event 6
+            World Environment Day
           </button>
         </aside>
 

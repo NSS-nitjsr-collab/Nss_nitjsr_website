@@ -2,26 +2,27 @@ import React from "react";
 
 export default function Event6() {
   return (
-    <div className="events Event6">
-      <h1 className="heading">Event 6</h1>
+    <div className="events worldEnvironmentDay">
+      <h1 className="heading">WORLD ENVIRONMENT DAY</h1>
 
       <div className="content">
         <figure>
-          <img className="image1" src="image2.jpeg" alt="123" />
+          <img className="image1" src="world environment day.png" alt="123" />
         </figure>
-        <div>
-          <h4>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed to using 'Content here, content
-            here', making it look like readable English. Many desktop publishing
-            packages and web page editors now use Lorem Ipsum as their default
-            model text, and a search for 'lorem ipsum' will uncover many web
-            sites still in their infancy. Various versions have evolved over the
-            years, sometimes by accident, sometimes on purpose (injected humour
-            and the like).
-          </h4>
+        <div className="eventContent">
+          <p>
+            With the theme <b>'Only One Earth'</b> which focuses on living
+            sustainably in harmony with nature, NSS NIT Jamshedpur celebrated
+            <b>World Environment Day</b> with a motive to restore our
+            biodiversity on 5th June. As our campus is full of greenery, we
+            cleaned the area and properly watered the plants to provide them
+            with a good atmosphere to grow. All the volunteers performed
+            different tasks such as planting trees, cleaning plastic products,
+            removing weeds, installing a small water container on trees for
+            birds, and a lot of other things very enthusiastically. There were
+            about 100+ volunteers who became part of our initiative to bring
+            positive change.
+          </p>
         </div>
       </div>
     </div>
