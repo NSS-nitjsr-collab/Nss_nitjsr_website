@@ -26,7 +26,7 @@ const About = () => {
       to develop leadership skills, enhance their understanding of social issues, 
       and contribute to the betterment of society. Additionally, NSS volunteers often 
       gain valuable experiences, interpersonal skills, and a sense of social responsibility 
-      that can positively impact their personal and professional lives.
+      that can positively impact their personal and professional lives.
       </p>
 
 

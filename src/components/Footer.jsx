@@ -9,14 +9,14 @@ const LINKS = [
     urls: ["/", "/about", "/event"],
   },
   {
-    title: "Departments",
-    items: ["Team", "Verify Certificate", "Contact us"],
-    urls: ["/team", "/verify", "/contact"],
+    title: "Downloads",
+    items: ["Team", "Verify Certificate", "YearBook"],
+    urls: ["/team", "/verify", "/yearbook"],
   },
   {
-    title: "Resource",
-    items: ["YearBook", "Blog", "Help center"],
-    urls: ["/yearbook", "/blog", "/contact"],
+    title: "Others",
+    items: ["IRCS", "YAS", "Help center"],
+    urls: ["https://www.indianredcross.org/ircs/index.php", "https://yas.nic.in/hi", "/contact"],
   },
 ];
 
@@ -43,7 +43,7 @@ export default function Footer() {
           ))}
         </div>
 
-        <div className="mt-12 flex w-full flex-col items-center justify-center border-t border-blue-gray-50 py-4 md:flex-row md:justify-between">
+        <div className="mt-12 flex w-full flex-col items-center justify-center border-t border-black py-4 md:flex-row md:justify-between">
           <div className="footer-bottom">
             &copy; {currentYear} <NavLink to="/">NSS NIT Jamshedpur</NavLink> |
             All Rights Reserved.
@@ -56,7 +56,7 @@ export default function Footer() {
             >
               <svg
                 className="h-5 w-5"
-                fill="#000000"
+                fill="#0963F7"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
               >
@@ -74,7 +74,7 @@ export default function Footer() {
             >
               <svg
                 className="h-5 w-5"
-                fill="#000000"
+                fill="#CB2E7C"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
               >
@@ -92,7 +92,7 @@ export default function Footer() {
             >
               <svg
                 className="h-5 w-5"
-                fill="#000000"
+                fill="#1C96E8"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
               >

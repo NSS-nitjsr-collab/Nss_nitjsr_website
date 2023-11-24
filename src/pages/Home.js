@@ -18,7 +18,7 @@ const Home = () => {
     <>
     <Header />
     <NSSHomepageFirstHalf />
-    <NoticeBanner text="Important Notice: There will be a maintenance activity on August 20th." />
+    {/* <NoticeBanner text="Important Notice: There will be a maintenance activity on August 20th." /> */}
     <CardGrid cards={cards} />
     <AboutUsHomePage />
     
