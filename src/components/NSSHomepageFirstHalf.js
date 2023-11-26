@@ -16,7 +16,7 @@ const NSSHomepageFirstHalf = () => {
         <p>
         Not me but you!
         </p>
-        <KnowMoreButton text="Know More" onClick={handleKnowMoreClick} />
+        {/* <KnowMoreButton text="Know More" onClick={handleKnowMoreClick} /> */}
       </div>
       <div className="right-half">
         <img src="https://avatars.githubusercontent.com/u/134844128?v=4" alt="NSS Logo" />

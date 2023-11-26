@@ -37,7 +37,7 @@ function Contact() {
         <div class="topic-text">Send us a message</div>
         <p>Fill up the form our team get back to you within a week.</p>
 
-      <form action="https://formspree.io/f/xwkdyzrj" method='POST'>
+      <form action="https://formspree.io/f/mzbllegd" method='POST'>
         <div class="input-box">
           <input 
           type="text" 
