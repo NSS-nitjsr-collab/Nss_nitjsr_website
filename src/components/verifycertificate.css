@@ -1,0 +1,25 @@
+
+  
+  input[type="text"] {
+    width: 100%;
+    
+    padding: 10px;
+    border:solid;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border:solid;
+    background-color: #45a049;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #verificationResult {
+    display: none;
+    margin-top: 30px;
+  }

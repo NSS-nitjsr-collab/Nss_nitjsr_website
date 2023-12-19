@@ -7,6 +7,7 @@ import Event from './pages/Event';
 import Team from './pages/Team';
 import About from './pages/About';
 import Yearbook from './pages/Yearbook';
+import VerifyCertificate from './pages/VerifyCertificate';
 import Error from './pages/Error';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/team" element={<Team />} /> 
         <Route path="/contact" element={<Contact />} />
         <Route path="/event" element={<Event />} />
+        <Route path="/verifycertificate" element={<VerifyCertificate />} />
         <Route path="*" element={<Error />} />
 
       </Routes>

@@ -105,7 +105,7 @@ export default function Header() {
               size="sm"
               className="hidden lg:inline-block"
             >
-            <Link to={"/verify"} className="nav-link ">           
+            <Link to={"/verifycertificate"} className="nav-link ">           
             <span>Verify Certificate</span>
           </Link>
             </Button>
@@ -151,7 +151,7 @@ export default function Header() {
         <MobileNav open={openNav}>
           {navList}
           <Button variant="gradient" size="sm" fullWidth className="mb-2">
-          <Link to={"/verify"} className="nav-link ">           
+          <Link to={"/verifycertificate"} className="nav-link ">           
             <span>Verify Certificate</span>
           </Link>
           </Button>
